@@ -33,7 +33,8 @@ import SignUp from "../pages/SignUp/SignUp";
         {
           path: 'signUp',
           element: <SignUp></SignUp>
-        }
+        },
+        
       ]
     },
   ]);
