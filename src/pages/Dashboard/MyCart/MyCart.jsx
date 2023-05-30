@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet-async";
-import useCart from "../hooks/useCart";
+import useCart from "../../../hooks/useCart";
 import { FaTrashAlt } from "react-icons/fa";
 import Swal from "sweetalert2";
 
-const MyCard = () => {
+const MyCart = () => {
     const [cart, refetch] = useCart();
     console.log(cart);
     // how does reduce work!!!
@@ -93,4 +93,4 @@ const MyCard = () => {
     );
 };
 
-export default MyCard;
+export default MyCart;
